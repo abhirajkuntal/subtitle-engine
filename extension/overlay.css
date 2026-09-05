@@ -1,0 +1,9 @@
+/* extension/overlay.css */
+/* Hide native YouTube captions */
+.ytp-caption-window-container {
+    display: none !important;
+}
+
+#bilingual-subtitle-overlay {
+    pointer-events: auto !important; /* Allow hover/clicks on specific words later */
+}
